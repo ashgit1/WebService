@@ -1,0 +1,33 @@
+
+1. Key : The “shared secret” value associated with the Key-name, which is used in authenticating an API call
+<key>gikqLBtZd3L5as10oIj3lSxEdRX84vu0OX7kNuhOc7s53Fg6e9</key> 			
+
+2. Key-Name	: The actual “name” of the key, which is used in authenticating an API call
+<nonce>rohasda123</nonce>												
+
+3. Hostname:
+Generate your “Connection Hostname”. This is accomplished by combining
+the Key-name value with a specific URI (“-nsu.akamaihd.net”). For example,
+if your Key-name was “abc123”, your Connection Hostname would be:
+abc123-nsu.akamaihd.net
+
+rohasda123-asdafiles.upload.akamai.com
+
+
+hostname : rohasda123-asdafiles.upload.akamai.com
+key		 : gikqLBtZd3L5as10oIj3lSxEdRX84vu0OX7kNuhOc7s53Fg6e9
+key-name : rohasda123
+
+------------
+Second User:
+------------
+
+hostname : wmrelease-asdafiles.upload.akamai.com
+key		 : jV9t4k15k591V37TJV8726XXvq5uEU65H29LMk10J8o4hFGs5m
+key-name : wmrelease
+
+
+
+
+
+http://www.codejava.net/java-se/networking/ftp/java-ftp-file-upload-tutorial-and-example

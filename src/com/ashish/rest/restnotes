@@ -1,0 +1,20 @@
+JAX-RS:
+It is java API for Rest Web Services.
+There are two main implementation of JAX-RS API:
+1. Jersey
+2. RESTEasy
+
+-----------------------------------------------------------------------------------------------------------------
+
+JAX-RS Example Jersey:
+We can create JAX-RS example by jersey implementation. To do so, you need to load jersey jar files or use maven framework.
+In this example, we are using jersey jar files for using jersey example for JAX-RS.
+
+There are 4 files created for hello world JAX-RS example:
+
+1. Hello.java
+2. web.xml
+3. index.html
+4. HelloWorldClient.java
+
+The first 3 files are created for server side and 1 application for client side.

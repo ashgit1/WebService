@@ -1,0 +1,171 @@
+Web Services Tutorial:
+Web service is a technology to communicate one programming language with another. 
+For example, java programming language can interact with PHP and .Net by using web services. 
+In other words, web service provides a way to achieve interoperability.
+
+Java Web Services Tutorial:
+In this tutorial, you will be able to learn java web services and its specifications such as JAX-WS and JAX-RS.
+
+There are two ways to write the code for JAX-WS by RPC style and Document style.
+Like JAX-WS, JAX-RS can be written by Jersey and RESTeasy.
+
+-----------------------------------------------------------------------------------------------------------------
+What is Web Service ?
+
+A Web Service is can be defined by following ways:
+
+1. is a client server application or application component for communication.
+2. method of communication between two devices over network.
+3. is a software system for interoperable machine to machine communication.
+4. is a collection of standards or protocols for exchanging information between two devices or application.(**)
+
+Let's understand it by the figure given below:
+As you can see in the figure, java, .net or PHP applications can communicate with other applications 
+through web service over the network. 
+For example, java application can interact with Java, .Net and PHP applications.
+So web service is a language independent way of communication.
+
+Types of Web Services:
+There are mainly two types of web services.
+1. SOAP web services.
+2. RESTful web services.
+
+-----------------------------------------------------------------------------------------------------------------
+
+Web Service Components:
+
+There are three major web service components.
+
+1. SOAP
+2. WSDL
+3. UDDI
+
+SOAP:
+SOAP is an acronym for Simple Object Access Protocol.
+SOAP is a XML-based protocol for accessing web services.
+SOAP is a W3C recommendation for communication between applications.
+SOAP is XML based, so it is platform independent and language independent. 
+In other words, it can be used with Java, .Net or PHP language on any platform.
+
+WSDL:
+WSDL is an acronym for Web Services Description Language.
+WSDL is a xml document containing information about web services such as method name, method parameter and 
+how to access it.
+WSDL is a part of UDDI. It acts as a interface between web service applications.
+WSDL is pronounced as "wiz-dull".
+
+UDDI:
+UDDI is an acronym for Universal Description, Discovery and Integration.
+UDDI is a XML based framework for describing, discovering and integrating web services.
+UDDI is a directory of web service interfaces described by WSDL, containing information about web services. 
+
+-----------------------------------------------------------------------------------------------------------------
+
+SOAP Web Services:
+SOAP stands for Simple Object Access Protocol. It is a XML-based protocol for accessing web services.
+SOAP is a W3C recommendation for communication between two applications.
+SOAP is XML based protocol. It is platform independent and language independent. 
+By using SOAP, you will be able to interact with other programming language applications.
+
+Advantages of Soap Web Services:
+1. WS Security: SOAP defines its own security known as WS Security.
+2. Language and Platform independent: SOAP web services can be written in any programming language and 
+executed in any platform.
+
+Disadvantages of Soap Web Services:
+1. Slow: SOAP uses XML format that must be parsed to be read. It defines many standards that must be followed
+while developing the SOAP applications. So it is slow and consumes more bandwidth and resource.
+
+2. WSDL dependent: SOAP uses WSDL and doesn't have any other mechanism to discover the service.
+
+-----------------------------------------------------------------------------------------------------------------
+
+RESTful Web Services:
+1. REST stands for Representational State Transfer.
+2. REST is an architectural style not a protocol.
+
+Advantages of RESTful Web Services:
+
+1. Fast: RESTful Web Services are fast because there is no strict specification like SOAP. 
+It consumes less bandwidth and resource.
+2. Language and Platform independent: RESTful web services can be written in any programming language and 
+executed on any platform.
+3. Can use SOAP: RESTful web services can use SOAP web services as the implementation.
+4. Permits different data format: RESTful web service permits different data format such as Plain Text, HTML, 
+XML and JSON.
+
+-----------------------------------------------------------------------------------------------------------------
+
+SOAP vs REST Web Services
+
+There are many differences between SOAP and REST web services. 
+The important 10 differences between SOAP and REST are given below:
+-----------------------------------------------------------------------------------------------------------------
+No	|	SOAP												|	REST
+-----------------------------------------------------------------------------------------------------------------
+1)	|	SOAP is a protocol.									|	REST is an architectural style.
+-----------------------------------------------------------------------------------------------------------------
+2)	|	SOAP stands for Simple Object Access Protocol.		|	REST stands for REpresentational State Transfer.
+-----------------------------------------------------------------------------------------------------------------
+3)	|	SOAP can't use REST because it is a protocol.		|	REST can use SOAP web services because it is a  
+																concept and can use any protocol like HTTP, SOAP.
+-----------------------------------------------------------------------------------------------------------------
+4)	|	SOAP uses services interfaces to expose the 		|	REST uses URI to expose business logic.
+		business logic.	
+-----------------------------------------------------------------------------------------------------------------		
+5)	|	JAX-WS is the java API for SOAP web services.		|	JAX-RS is the java API for RESTful web services.
+-----------------------------------------------------------------------------------------------------------------
+6)	|	SOAP defines standards to be strictly followed. 	|	REST does not define too much standards like SOAP.
+-----------------------------------------------------------------------------------------------------------------
+7)	|	SOAP requires more bandwidth and resource than REST.|	REST requires less bandwidth and resource than SOAP.
+-----------------------------------------------------------------------------------------------------------------
+8)	|	SOAP defines its own security.						|	RESTful web services inherits security measures
+																 from the underlying transport.
+-----------------------------------------------------------------------------------------------------------------
+9)	|	SOAP permits XML data format only.					|	REST permits different data format such as Plain 
+																text, HTML, XML, JSON etc.
+-----------------------------------------------------------------------------------------------------------------																
+10)	|	SOAP is less preferred than REST.					|	REST more preferred than SOAP.
+-----------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+Service Oriented Architecture (SOA):
+Service Oriented Architecture or SOA is a design pattern. It is designed to provide services to other
+applications through protocol. It is a concept only and not tied to any programming language or platform.
+
+Web services is a technology of SOA most likely.
+
+Service:
+A service is well-defined, self-contained function that represents unit of functionality. 
+A service can exchange information from another service. 
+It is not dependent on the state of another service.
+
+
+Service Connections:
+Service consumer sends service request to the service provider and service provider sends the service response
+to the service consumer. The service connection is understandable to both service consumer and service provider.
+Diagram:http://www.javatpoint.com/service-oriented-architecture
+
+-----------------------------------------------------------------------------------------------------------------
+
+Java Web Services Tutorial:
+Java web services tutorial provides concepts and examples of two main java web services api: JAX-WS and JAX-RS. 
+The java web service application can be accessed by other programming languages such as .Net and PHP.
+
+Java web service application perform communication through WSDL (Web Services Description Language). 
+There are two ways to write java web service application code: SOAP and RESTful.
+
+Java Web Services API:
+There are two main API's defined by Java for developing web service applications since JavaEE 6.
+
+1) JAX-WS: for SOAP web services. 
+The are two ways to write JAX-WS application code: by RPC style and Document style.
+
+2) JAX-RS: for RESTful web services. 
+There are mainly 2 implementation currently in use for creating JAX-RS application: Jersey and RESTeasy.
+
+Diagram: http://www.javatpoint.com/java-web-services-tutorial
+
+-----------------------------------------------------------------------------------------------------------------

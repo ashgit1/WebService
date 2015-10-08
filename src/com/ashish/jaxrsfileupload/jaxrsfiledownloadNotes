@@ -1,0 +1,16 @@
+RESTful JAX-RS File Upload Example:
+	
+We can easily upload a file such as image file, pdf file, excel file, text file etc.
+The @FormDataParam("file") annotation is used to mention file parameter in the service class. 
+The @Consumes(MediaType.MULTIPART_FORM_DATA) is used to provide information of the file upload.
+
+To upload file using JAX-RS API, we are using jersey implementation.
+To upload file through jersey implementation, you need to provide extra configuration entry in web.xml file.
+
+<init-param>  
+     <param-name>jersey.config.server.provider.classnames</param-name>  
+     <param-value>
+     	org.glassfish.jersey.filter.LoggingFilter; 
+     	org.glassfish.jersey.media.multipart.MultiPartFeature
+     </param-value>  
+</init-param>  

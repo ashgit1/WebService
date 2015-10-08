@@ -1,0 +1,25 @@
+RESTful JAX-RS Annotations Example:
+JAX-RS API provides following annotations to develop RESTful applications in java. 
+We are using jersey implementation for developing JAX-RS examples.
+
+
+JAX-RS Annotations:
+The javax.ws.rs package contains JAX-RS annotations.
+
+Annotation	Description:
+Path		: It identifies the URI path. It can be specified on class or method.
+PathParam	: represents the parameter of the URI path.
+GET			: specifies method responds to GET request.
+POST		: specifies method responds to POST request.
+PUT			: specifies method responds to PUT request.
+HEAD		: specifies method responds to HEAD request.
+DELETE		: specifies method responds to DELETE request.
+OPTIONS		: specifies method responds to OPTIONS request.
+FormParam	: represents the parameter of the form.
+QueryParam	: represents the parameter of the query string of an URL.
+HeaderParam	: represents the parameter of the header.
+CookieParam	: represents the parameter of the cookie.
+Produces	: defines media type for the response such as XML, PLAIN, JSON etc. 
+			  It defines the media type that the methods of a resource class or MessageBodyWriter can produce.
+Consumes	: It defines the media type that the methods of a resource class or MessageBodyReader can consume.
+
