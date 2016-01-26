@@ -23,7 +23,7 @@ public class FileUploadService {
             String fileLocation = "C:/Ashish/Release/jax-rs-files/" + fileDetail.getFileName();  
             //Saving file...       
             try {  
-                FileOutputStream out = new FileOutputStream(new File(fileLocation));  
+                FileOutputStream out ; 
                 int read = 0;  
                 byte[] bytes = new byte[1024];  
                 out = new FileOutputStream(new File(fileLocation));  
